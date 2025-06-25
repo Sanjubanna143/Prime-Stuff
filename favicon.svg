@@ -1,0 +1,7 @@
+<svg width="45" height="45" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
+  <rect width="45" height="45" rx="12" fill="#ffe600"/>
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central"
+        font-family="Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold">
+    Ps
+  </text>
+</svg>
