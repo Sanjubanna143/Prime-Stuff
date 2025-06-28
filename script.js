@@ -138,6 +138,17 @@ playMusic(songs[1],true)
         document.querySelector(".circle").style.left = percent +"%"; //  Move the .circle to that percentage point.
         currentsong.currentTime = ((currentsong.duration)* percent)/100 // This actually jumps the song to the clicked position.
     })
+
+// noW  we add a clink event on hamburger to open  menu
+document.querySelector(".hamburger").addEventListener("click",()=>{
+    document.querySelector(".left").style.left ="0"
+})
+// noW  we add a clink event on hamburger to clode  menu
+document.querySelector(".close").addEventListener("click",()=>{
+    document.querySelector(".left").style.left ="-120%"
+})
+
+
 }
 
 main()
