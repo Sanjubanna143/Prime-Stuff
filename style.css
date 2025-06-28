@@ -38,14 +38,14 @@ html, body {
 
 .right {
     width: 75vw;
-    margin: 16px 0;
+    margin: 16px 10px 0px 0;
      padding: 16px 12px 0 0; /* adjust spacing *inside* the box */
     position: relative;
     height: 95vh;
     display: flex;
     flex-direction: column;
     min-height: 0;
-    margin-right: 10px;
+    
 }
 
 .home ul li {
@@ -430,7 +430,7 @@ html, body {
         transition: all .3s;
         z-index: 1;
         width: 360px;
-        max-height: 60vh;
+        max-height: 87vh;
         margin: 0;
     }
 
@@ -503,6 +503,7 @@ html, body {
     .card-container{
      
        overflow-y: auto;
+       max-height: 100vh;
 
     }
     .library {
