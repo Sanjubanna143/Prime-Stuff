@@ -430,7 +430,7 @@ html, body {
         transition: all .3s;
         z-index: 1;
         width: 360px;
-        max-height: 87vh;
+        max-height: 100vh;
         margin: 0;
     }
 
@@ -453,6 +453,7 @@ html, body {
 
     .seekbar{
         width: 95%;
+       
     }
     .playbar {
         width: 100vw; 
@@ -475,7 +476,7 @@ html, body {
         padding: 3px;
         border: 2px solid white;
         border-radius: 16px;
-        margin: 4px 10px 0px 40px;
+        margin: 4px 10px 1px 15px;
 
     }
 
@@ -510,6 +511,9 @@ html, body {
    
     
 }
+.arrow{
+    display: none;
+}
 }
 
 
@@ -537,4 +541,31 @@ html, body {
        min-width: 100vh;
        overflow-x: scroll;
     }
+    .songlist{
+            flex: 1 1 auto;
+    overflow-y: auto;
+    margin: 3px 0;
+   
+    }
+    .footer{
+     display: flex;
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: auto; /* ✅ push footer to bottom */
+    padding-bottom: 1px;
+    position: relative; /* ⚠️ change from absolute to relative */
+}
+.library{
+    
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* ✅ enable scrolling if needed */
+    min-height: 0; /* ✅ allow flex to control height */
+
+}
 }

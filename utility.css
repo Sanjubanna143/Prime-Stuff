@@ -21,7 +21,7 @@
 }
 
 
-/* invert like toggle the colours aginst the bg color */
+/* invert ( like toggle the colours ) against the bg color */
 .invert{
     filter: invert(1);
 }

@@ -143,7 +143,7 @@ playMusic(songs[1],true)
 document.querySelector(".hamburger").addEventListener("click",()=>{
     document.querySelector(".left").style.left ="0"
 })
-// noW  we add a clink event on hamburger to clode  menu
+// noW  we add a clink event on hamburger to close  menu
 document.querySelector(".close").addEventListener("click",()=>{
     document.querySelector(".left").style.left ="-120%"
 })
